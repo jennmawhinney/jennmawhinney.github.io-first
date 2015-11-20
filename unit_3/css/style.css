@@ -1,9 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url('/long_red.jpg');
+	background-image: url('../long_red.jpg');
 	background-color: #7F645E;
 	background-size: initial;
-    background-repeat: no-repeat;
-    background-position: center top;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size:16px;
 }
 
 h1 {
@@ -11,8 +13,8 @@ h1 {
 	font-family: sans-serif;
 	font-weight: bold;
 	color: #F9E7F8;
-	font-size: 45px;
-	padding-top: 480px;
+	font-size: 3em;
+	padding-top: 10em;
 }
 
 h3 {
@@ -21,7 +23,7 @@ h3 {
 	font-family: sans-serif;
 	font-weight: bold;
 	color: #F9E7F8;
-	font-size: 30px
+	font-size: 2em;
 }
 
 a {
@@ -34,7 +36,6 @@ a {
     text-decoration: none;
 }
 li {
-    display: inline;
  	float: left;
  	font-family: sans-serif;
  	font-style: italic;
