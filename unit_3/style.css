@@ -1,48 +1,54 @@
 body {
-	background-image: url('images/long_red.jpg');
+	background-image: url('long_red.jpg');
 	background-color: #7F645E;
 	background-size: initial;
     background-repeat: no-repeat;
     background-position: center top;
+    color: #F9E7F8;
+    font-family: 'Josefin Sans', sans-serif;
+    font: 16px;
 }
 
 h1 {
 	text-align: center;
-	font-family: sans-serif;
 	font-weight: bold;
 	color: #F9E7F8;
-	font-size: 45px;
-	padding-top: 480px;
+	font-size: 4em;
 }
 
 h3 {
 	text-align: center;
 	float: bottom;
-	font-family: sans-serif;
 	font-weight: bold;
 	color: #F9E7F8;
-	font-size: 30px
+	font-size: 2em;
+}
+
+nav {
+	float: right;
+	display: inline;
+ 	font-style: italic;
+ 	font-size: 3em;
+ 	padding-left: 8em;
 }
 
 a {
 	color: #F9E7F8;
 	list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 1.5em;
     display: block;
-    width: 100px;
+    width: 9em;
     text-decoration: none;
 }
 li {
-    display: inline;
- 	float: left;
- 	font-family: sans-serif;
- 	font-style: italic;
- 	font-size: 25px;
- 	padding-left: 80px;
+ 	font-size: 3em
+ 	padding-left: 8em;
 }
+
+
 
 #logo {
 	float: left;
-	padding-left: 30px;
+	padding-left: 2em;
 }

@@ -1,0 +1,96 @@
+*{margin: 0; border: 0; box-sizing: border-box;}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+body {
+	background-color: #7F645E;
+    color: #F9E7F8;
+	font: 16px;
+	font-weight: 100;
+}
+#logo {
+	float: left;
+	padding-left: 3em;
+	padding-top: 3em
+}
+section#home {
+	background-image: url('images/two_girls.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height:100vh;
+	text-align: center;
+}
+#home_header {
+	padding-top: 25em;
+}
+h1 {
+	font-family: 'Raleway', serif;
+	font-weight: 400;
+	color: #F9E7F8;
+	font-size: 4em;
+}
+h2 {
+	font-family: 'Raleway', serif;
+	font-weight: 400;
+	color: #F9E7F8;
+	font-size: 3em;
+}
+p {
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	color: #F9E7F8;
+	font-size: 1.5em;
+}
+a {
+	color: #F9E7F8;
+	font-family: 'Raleway', serif;
+	list-style-type: none;
+    margin: 0 auto;
+    padding: 1.5em;
+    display: block;
+    width: 3em;
+    text-decoration: none;
+}
+li {
+    display: inline;
+    float: left;
+ 	font-style: italic;
+ 	font-size: 2em;
+ 	font-weight: 400;
+ 	margin-left: 3.5em;
+ }
+section#profile {
+	text-align: left;
+	color: #F9E7F8;
+	padding-bottom: 20em;
+	height:100vh;
+}
+section#gallery {
+	font-weight: bold;
+	color: #F9E7F8;
+	padding-top: 20em;
+	padding-bottom: 15em;
+	height:100vh;
+}
+section#education {
+	font-weight: bold;
+	color: #F9E7F8;
+	padding-top: 20em;
+	padding-bottom: 15em;
+	height:100vh;
+}
+section#consulting {
+	text-align: center;
+	font-weight: bold;
+	color: #F9E7F8;
+	padding-top: 20em;
+	padding-bottom: 15em;
+	height:100vh;
+}
