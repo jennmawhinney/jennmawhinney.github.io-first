@@ -3,36 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vincent Nobile</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="stylesheet_new.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<div id="wrapper">
 	<section id="home" class="clearfix">
-		<img src="images/new_logo_small.png">
-		<nav>
-			<ul>
-				<li><a href="#profile">Profile</a></li>
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#consulting">Consulting</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul> 
-		</nav>
+		<div>
+			<div id="logo" class="clearfix">
+			<img src="images/new_logo_small.png">
+			</div>
+			<nav id="nav">
+				<ul>
+					<div id="profile_link"><li><a href="#profile">Profile</a></li></div>
+					<div id="gallery_link"><li><a href="#gallery">Gallery</a></li></div>
+					<div id="education_link"><li><a href="#education">Education</a></li></div>
+					<div id="consulting_link"><li><a href="#consulting">Consulting</a></li></div>
+					<div id="contact_link"><li><a href="#contact">Contact</a></li></div>
+				</ul> 
+			</nav>
+		</div>
+		<div id="home_header" class="clearfix">
 		<h1>Vincent Nobile</h1>
 		<h2>Colourist</h2>
+		</div>
 	</section>
 	<section id="profile" class="clearfix">
-		<h2>Vincent Nobile:</h2> 
-		<p>: : co-owner of Headcase Hair and director of the Colour Team is a major force behind luxury editorial hair colour in Australia.</p>
-		<!--<article>
+		<h1>Profile</h1>
+		<br>
+		<h2>Vincent Nobile, co-owner of Headcase Hair and director of the Colour Team is a major force behind luxury editorial hair colour in Australia.</h2>
+		<br>
+		<article>
 			<p>Nobile is known for creating precision colour for some of Australia&#146;s leading celebrities, models and international faces. He is revered for being the person to see when a colour needs fixing and notorious for his expertise with blonde precision colour.</p>
 			<p>Nobile frequents New York and travels globally  teaching seminars, colour presentations and major hair shows. He is renowned for his strong presence in the industry as a platform artist and educator.</p>
 			<p>Awarded some of the top accolades within the hairdressing industry, Nobile aims is to raise the standard of colouring across the hairdressing industry.</p>
+			<p><q>Hair colour is like a beautiful painting, reflecting light and shade with lots of dimension. It should be seamless and continually flow through the hair with perfect harmony. For every look, I work with the complexion, features, eye colour and natural texture accentuating the natural beauty. Great colour should always evolve with the client.</q> Vincent Nobile.</p>
+		<br>
 		</article>
-		<blockquote>Hair colour is like a beautiful painting, reflecting light and shade with lots of dimension. It should be seamless and continually flow through the hair with perfect harmony. For every look, I work with the complexion, features, eye colour and natural texture accentuating the natural beauty. Great colour should always evolve with the client.</blockquote><cite>Vincent Nobile.</cite>-->
 	</section>
 	<section id="gallery" class="clearfix">
+		<h2>Gallery</h2>
 			<img src="images/short_blonde_hair.jpg" alt="Model with short blonde swept back hair">
 			<img src="images/red_hair_up.jpg" alt="Model with bright red hair worn up">
 			<img src="images/paint_splash.jpg" alt="Model with brown hair with bright red paint splatters">
@@ -44,28 +55,38 @@
 			<img src="images/red_curls.jpg" alt="Model with red curly hair">
 			<img src="images/blonde_over.jpg" alt="Model with long blonde hair">
 	</section>
-	<section id="education">
-		<h2>Education</h2>
+	<section id="education" class="clearfix">
+		<h1>Education</h1>
 		<br>
 		<p>Vincent is one of Australia&#146;s top Educators in his field. Vincent is available for group and one on one training. He specialises in teaching:</p>
-		<ul>
+		<br>
+		<div id="ednav"
+		<ol>
 			<li>Colouring Fundamentals</li>
 			<li>The Latest Colour Trends</li>
 			<li>From Catwalk to Salon Floor</li>
 			<li>Becoming the Best You Can Be</li>
 			<li>Managing a Top Clour Department</li>
-		</ul>
+		</ol>
+		</div>
+			<br>
+		<div id="info">
 		 <p>For more information contact:<a href="mailto:info@vincentnobile.com?Subject=More%20Info!" target="_top">info@vincentnobile.com</a></p>
+		 </div>
 	</section>
-	<section id="consulting">
-		<h2>Consulting</h2>
+	<section id="consulting" class="clearfix">
+		<h1>Consulting</h1>
+		<br>
 		<p>Take advantage of Vincent&#146;s many years of experience and get his help in buiding you business and career. Vincent is availalbe for Consulting and can help you with:</p>
-		<ul>
+		<br>
+		<div id="consultnav">
+		<ol>
 			<li>Mentoring</li>
 			<li>Building your Business</li>
 			<li>Increasing your Wealth</li>
 			<li>Expanding your Career Options</li>
-		</ul>
+		</ol>
+		</div>
 	</section>
 	<footer>
 		<ul>
@@ -74,5 +95,6 @@
 			<li>More Infomation</li>
 		</ul>
 	</footer>
+	</div>
 </body>
-</html
+</html>
