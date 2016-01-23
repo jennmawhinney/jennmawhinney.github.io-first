@@ -7,11 +7,7 @@
 	clear: both;
 }
 body {
-	/*background-image: url('images/long_yellow.jpg');
-	background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;*/
-	background-color: #7F645E;
+	background-color: #161517;
     color: #F9E7F8;
 	font: 16px;
 }
@@ -21,25 +17,23 @@ body {
 	padding-top: 1.25em;
 }
 section#home {
-	background-image: url('images/long_red.jpg');
-	background-size: contain;
+	background-image: url('images/vincent_landscape.jpg');
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 	height:100vh;
 	text-align: center;
 }
-section#home > img {
-	float: left;
-	width: 10em;
-	padding-left: 1.5em;
-	padding-top: 1.5em;
+#nav {
+	width: 33.33%;
+	float:left;
 }
 nav li a{
-	color: #7F645E;
+	color: #F9E7F8;
 	float: left;
-	background-color: #000;
+	background-color: #161517;
  	list-style-type: none;
- 	margin-top: 1em;
+ 	margin-top: 1.5em;
  	margin-left: .5em;
  	padding: 1em 1.5em;
     text-decoration: none;
@@ -50,14 +44,16 @@ nav li a{
 	font-family: 'Raleway', serif;
 }
 nav li {
-	display: inline;
+	display: block;
 }
 a:hover {
-	background-color: #fff;
+	background-color: #252326;
 }
-/*li + li {
-	margin-left: .5em;
-}*/
+#h {
+	width: 66.66%%;
+	float: left;
+	padding-top: 25em;
+}
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #fff;
@@ -70,9 +66,6 @@ h2 {
 	color: #fff;
 	font-size: 3em;
 }
-section#home > h1 {
-	padding-top: 5em;
-}
 section#profile {
 	font-size: 1.25em;
 	line-height: 1.25em;
@@ -80,41 +73,6 @@ section#profile {
 	padding-top: 2em;
 	width: 50%;
 }
-/*section#profile {
-	background-image: url('images/model_walking.jpg');
-	background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    background-position: center;
-	height:100vh;
-}
-#blurb {
-	color: #F9E7F8;
-	width: 15em;
-	margin: auto
-	border-top: 5em;
-}
-section#profile > h2 {
-	font-size: 2em;
-}
-section#profile > p {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 100;
-	font-size: 1em;
-}
-article {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 100;
-	color: #F9E7F8;
-	float: left;
-	font-size: 1em;
-	padding: 1em;
-	width: 33.33%;
-}
-blockquote {
-	float: left;
-	width: 33.33%;
-}*/
 section#gallery {
 	width: 800px;
 	margin: auto;
@@ -131,10 +89,6 @@ img {
 	padding: 2em;
 }
 blockquote {
-  /*background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;*/
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
@@ -196,43 +150,6 @@ section#consulting{
 	text-decoration: none;
 	color: #F9E7F8;
 }
-/*#info {
-	padding: 2em;
-	text-align: left;
-}*/
-/*#ednav {
-	background-color: #F9E7F8;
-	border-radius: 2em;
-	color: #7F645E;
-	display: block;
-	font-family: 'Raleway', serif;
-	font-size: .85em;
-	font-style: bold;
-	height: 17em;
-	list-style-type: none;
-    margin: 0 auto;
-    padding: 3.5em 3.5em 0 0;
-    width: 60%;
-    text-decoration: none;
-    text-transform: uppercase;
-}*/
-/*#consultnav {
-	background-color: #F9E7F8;
-	border-radius: 2em;
-	color: #7F645E;
-	display: list-item;
-	font-family: 'Raleway', serif;
-	font-size: .85em;
-	font-style: bold;
-	height: 17em;
-	list-style-type: none;
-    margin: 0 auto;
-    padding: 4.5em 3.5em 0 0;
-    width: 60%;
-    text-align: left;
-    text-decoration: none;
-    text-transform: uppercase;
-}*/
 #footer li {
 	color: #F9E7F8;
 	display: block;
@@ -250,4 +167,43 @@ section#consulting{
 	font-size: 2em;
 	padding: 2em 0 5em 0;
 }
-
+@media only screen and (max-width: 640px){
+	#nav {
+		width:100%;
+	}
+	#h {
+		padding-top: 5em;
+		float: none;
+	}
+	section#home {
+		background-image: none;
+	}
+	body{
+		background-color: #000;
+}
+	nav li a {
+		width:100%; margin:0 0 1px 0}
+}
+	section#gallery {
+		width:30%; 
+		margin:0 0 1px 0;
+		display: inline;
+	}
+@media only screen and (max-width: 499px){
+	#nav {
+		width:100%;
+	}
+	#h {
+		float: none;
+		padding: 1em;
+	}
+	section#home {
+		background-image: none;
+	}
+	body{ 
+		background-color: #000;
+}
+    nav li a {width:100%; margin:0 0 1px 0}
+    ul li a {display:block;}
+    ul li ul{display:none;}
+}
