@@ -160,7 +160,6 @@ section#consulting {
 	color: #F9E7F8;
 }
 #footer li {
-	color: #F9E7F8;
 	display: inline-block;
 	font-style: normal;
 	font-weight: bold;
@@ -168,8 +167,11 @@ section#consulting {
 	padding: 2em;
 	text-align: center;
 	font-size: 1.5em;
-	text-decoration: none;
 	text-transform: uppercase;
+}
+#footer a {
+	text-decoration: none;
+	color: #F9E7F8;
 }
 #footer {
 	background-color: #000;
