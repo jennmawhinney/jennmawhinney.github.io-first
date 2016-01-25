@@ -1,0 +1,359 @@
+*{margin: 0; border: 0; box-sizing: border-box;}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+body {
+	background-color: #161517;
+    color: #F9E7F8;
+	font: 16px;
+}
+.paragraph {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;	
+	padding-top: 1.25em;
+}
+section#home {
+	background-image: url('images/vincent_landscape.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height:100vh;
+	text-align: center;
+}
+#nav {
+	width: 33.33%;
+	float:left;
+}
+nav li a{
+	color: #F9E7F8;
+	float: left;
+	background-color: #161517;
+ 	list-style-type: none;
+ 	margin-top: 1.5em;
+ 	margin-left: .5em;
+ 	padding: 1em 1.5em;
+    text-decoration: none;
+    font-style: italic;
+	width: 9em;
+	font-size: 1.5em;
+ 	font-weight: 400;
+	font-family: 'Raleway', serif;
+}
+nav li {
+	display: block;
+}
+a:hover {
+	background-color: #252326;
+}
+#h {
+	width: 66.66%;
+	float: left;
+	padding-top: 25em;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+	font-size: 4.5em;
+	font-weight: 300;
+	padding-top: 1.25em;
+	text-align: left;
+}
+h2 {
+	font-family: 'Josefin Sans', sans-serif;	
+	font-weight: 300;
+	color: #fff;
+	font-size: 3em;
+	padding-right: 5em
+}
+section#profile {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	margin: auto;
+	padding-top: .2em;
+	width: 50%;
+}
+#media {
+	display: none;
+}
+span#main {
+	visibility: visible;
+}
+section#gallery {
+	width: 66.66%;
+	margin: auto;
+}
+img {
+	border-radius:.2em;
+	float:left;
+	padding: 1em;
+	width: 33.33%;
+}
+#blockquote {
+	width: 50%;
+	margin: auto;
+	padding: 2em;
+}
+blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 6em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  font-weight: 400;
+  color: #F9E7F8;
+  line-height: 1.25em;
+}
+#quote {
+	text-align: right;
+	font-family: 'Josefin Sans', serif;
+    font-size: 1.5em;
+  	font-weight: 100;
+  	color: #F9E7F8;
+  	line-height: 1.25em;
+}
+#two_column .clearfix {
+	width: 66.66%;
+	margin: auto;
+}
+li {
+	font-family: 'Raleway', serif;
+}
+section#education {
+	float: left;
+	font-size: 1.25em;
+	font-weight: 100;
+	color: #F9E7F8;
+	line-height: 1.25em;
+	padding: 2em 5em;
+	width: 50%;
+}
+section#education p {
+	visibility: visible;
+}
+section#consulting {
+	float: left;
+	font-size: 1.25em;
+	font-weight: 100;
+	color: #F9E7F8;
+	line-height: 1.25em;
+	padding: 2em 5em;
+	width: 50%;
+}
+#contact p{
+	font-style: 'Raleway' sans-serif;
+	padding-bottom: 2em;
+	text-align: center;
+	color: #F9E7F8;
+}
+#contact a{
+	text-decoration: none;
+	color: #F9E7F8;
+}
+#footer li {
+	display: inline-block;
+	font-style: normal;
+	font-weight: bold;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+#footer a {
+	text-decoration: none;
+	color: #F9E7F8;
+}
+#footer {
+	background-color: #000;
+	font-size: 2em;
+	padding: 2em 0 5em 0;
+}
+@media only screen and (max-width: 1170px){
+	#footer li {
+		font-size: 1.25em;
+}
+	p#hidden1 {
+		display: none;
+}
+	p#hidden2 {
+		display: none;
+}
+	#education ul{
+		display: none;
+}
+	#consulting ul {
+		display: none;
+}
+}
+@media only screen and (max-width: 1085px){
+	#footer li{
+		font-size: 1em;
+}
+	p#hidden1 {
+		display: none;
+}
+	p#hidden2 {
+		display: none;
+}
+	#education ul{
+		display: none;
+}
+	#consulting ul {
+		display: none;
+}
+}
+@media only screen and (max-width: 880px){
+	#footer li{
+		font-size: .75em;
+}
+	p#hidden1 {
+		display: none;
+}
+	p#hidden2 {
+		display: none;
+}
+}
+@media only screen and (max-width: 640px){
+	#nav {
+		width:100%;
+		padding-bottom: 3em;
+}
+	section#home {
+		background-image: none;
+}
+	body{
+		background-color: #161517;
+}
+	#h {
+		float: none;
+}
+	section#profile h2 {
+		display: none;
+}
+	section#profile {
+		padding-top: .5em;
+}
+	#media {
+		visibility: visible;
+		font-size: 1.25em;
+		color: red;
+}
+	#main {
+		display: none;
+}
+	nav li a {
+		width:100%; 
+		margin:0 0 1px 0;
+}
+	section#gallery {
+		width:30%; 
+		margin: 2em 0;
+		display: inline;	
+}
+	blockquote {
+		display: none;
+}
+	#quote {
+		display: none;
+}
+	#education {
+		display: none;	
+}
+	#consulting {
+		display: none;
+}
+	#footer {
+		padding: .1em;
+}
+	#footer li {
+		display: block;
+		font-size: 1em;
+		margin: auto;
+}
+	li:hover {
+		background-color: #252326;
+}
+}
+@media only screen and (max-width: 499px){
+	#footer {
+		padding: .2em;
+}
+	#footer li {
+		display: block;
+		font-size: .5em;
+		padding: none;
+		margin: auto;
+}
+	li:hover {
+			background-color: #252326;
+}
+	section#home {
+		background-image: none;
+}
+	body{ 
+		background-color: #161517;
+}
+	#nav {
+		width:100%;
+}
+	#h h2 {
+		float: none;
+}
+	section#profile h2 {
+		display: none;
+}
+	section#profile {
+		padding-top: .5em;
+}
+	/*section#gallery {
+		padding-top: 2em;
+	}*/
+	#main {
+		display: none;
+}
+	#media {
+		visibility: visible;
+		font-size: 1.25em;
+		color: red;
+}
+   	#nav nav li a {
+   		width:100%; 
+   		margin:0 0 1px 0
+}
+   	#nav ul li a {
+   		display:block;
+}
+   	#nav ul li ul {
+   		display:none;
+}
+	blockquote {
+		display: none;
+}
+	#quote {
+		display: none;
+}
+	#education {
+		display: none;	
+}
+	#consulting {
+		display: none;
+}
+}
+@media only screen and (max-width: 320px){
+	#profile p {
+		margin-top: 6em;
+}
+}

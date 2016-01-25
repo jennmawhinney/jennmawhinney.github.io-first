@@ -50,7 +50,7 @@ a:hover {
 	background-color: #252326;
 }
 #h {
-	width: 66.66%%;
+	width: 66.66%;
 	float: left;
 	padding-top: 25em;
 }
@@ -59,12 +59,15 @@ h1 {
 	color: #fff;
 	font-size: 4.5em;
 	font-weight: 300;
+	padding-top: 1.25em;
+	text-align: left;
 }
 h2 {
 	font-family: 'Josefin Sans', sans-serif;	
 	font-weight: 300;
 	color: #fff;
 	font-size: 3em;
+	padding-right: 5em
 }
 section#profile {
 	font-size: 1.25em;
@@ -178,79 +181,118 @@ section#consulting {
 	font-size: 2em;
 	padding: 2em 0 5em 0;
 }
+@media only screen and (max-width: 1440px){
+	h1 {
+		font-size: 5em;
+		padding-top: 2.5em;
+	}
+	h2 {
+		font-size: 4em;
+		padding-right: 7em;
+	}
+	nav li a {
+		font-size: 2.25em;
+	}
+}
+@media only screen and (max-width: 1440px){
+	h1 {
+		font-size: 4em;
+		padding-top: 2.5em;
+	}
+	h2 {
+		font-size: 4em;
+		padding-right: 7em;
+	}
+	nav li a {
+		font-size: 2.25em;
+	}
+}
+@media only screen and (max-width: 1280px){
+	h1 {
+		font-size: 4.75em;
+		padding-top: 1.5em;
+}
+	h2 {
+		font-size: 3.25em;
+		padding-right: 7em
+}
+	nav li a {
+		font-size: 2em;
+	}
+}
 @media only screen and (max-width: 1170px){
 	#footer li {
 		font-size: 1.25em;
-	}
-		p#hidden1 {
+}
+	p#hidden1 {
 		display: none;
-	}
+}
 	p#hidden2 {
 		display: none;
-	}
+}
 	#education ul{
 		display: none;
-	}
+}
 	#consulting ul {
 		display: none;
-	}
+}
 }
 @media only screen and (max-width: 1085px){
 	#footer li{
 		font-size: 1em;
-	}
-		p#hidden1 {
+}
+	p#hidden1 {
 		display: none;
-	}
+}
 	p#hidden2 {
 		display: none;
-	}
-		#education ul{
+}
+	#education ul{
 		display: none;
-	}
+}
 	#consulting ul {
 		display: none;
-	}
+}
 }
 @media only screen and (max-width: 880px){
 	#footer li{
 		font-size: .75em;
-	}
+}
 	p#hidden1 {
 		display: none;
-	}
+}
 	p#hidden2 {
 		display: none;
-	}
+}
 }
 @media only screen and (max-width: 640px){
 	#nav {
 		width:100%;
 		padding-bottom: 3em;
-	}
+}
 	section#home {
 		background-image: none;
-	}
+}
 	body{
 		background-color: #161517;
 }
 	#h {
 		float: none;
-	}
+}
 	section#profile h2 {
 		display: none;
-	}
+}
 	section#profile {
 		padding-top: .5em;
-	}
+}
 	#media {
 		visibility: visible;
 		font-size: 1.25em;
 		color: red;
-	}
+}
 	#main {
 		display: none;
-	}
+}
 	nav li a {
 		width:100%; 
 		margin:0 0 1px 0;
@@ -262,95 +304,95 @@ section#consulting {
 }
 	blockquote {
 		display: none;
-	}
+}
 	#quote {
 		display: none;
-	}
+}
 	#education {
-	display: none;	
-	}
+		display: none;	
+}
 	#consulting {
-	display: none;
-	}
+		display: none;
+}
 	#footer {
 		padding: .1em;
-	}
+}
 	#footer li {
-	display: block;
-	font-size: 1em;
-	margin: auto;
-	}
+		display: block;
+		font-size: 1em;
+		margin: auto;
+}
 	li:hover {
-	background-color: #252326;
+		background-color: #252326;
 }
 }
 @media only screen and (max-width: 499px){
 	#footer {
 		padding: .2em;
-	}
+}
 	#footer li {
-	display: block;
-	font-size: .5em;
-	padding: none;
-	margin: auto;
-	}
+		display: block;
+		font-size: .5em;
+		padding: none;
+		margin: auto;
+}
 	li:hover {
-	background-color: #252326;
+			background-color: #252326;
 }
 	section#home {
 		background-image: none;
-	}
+}
 	body{ 
 		background-color: #161517;
 }
 	#nav {
 		width:100%;
-	}
+}
 	#h h2 {
 		float: none;
-		}
+}
 	section#profile h2 {
 		display: none;
-	}
+}
 	section#profile {
 		padding-top: .5em;
-	}
+}
 	/*section#gallery {
 		padding-top: 2em;
 	}*/
 	#main {
 		display: none;
-	}
+}
 	#media {
 		visibility: visible;
 		font-size: 1.25em;
 		color: red;
-	}
-   #nav nav li a {
-   	width:100%; 
-   	margin:0 0 1px 0
-   }
-   #nav ul li a {
-   	display:block;
-   }
-   #nav ul li ul {
-   	display:none;
-   }
+}
+   	#nav nav li a {
+   		width:100%; 
+   		margin:0 0 1px 0
+}
+   	#nav ul li a {
+   		display:block;
+}
+   	#nav ul li ul {
+   		display:none;
+}
 	blockquote {
-	display: none;
-	}
+		display: none;
+}
 	#quote {
-	display: none;
-	}
+		display: none;
+}
 	#education {
-	display: none;	
-	}
+		display: none;	
+}
 	#consulting {
-	display: none;
-	}
-	}
-	@media only screen and (max-width: 320px){
-		#profile p {
-			margin-top: 6em;
-		}
-	}
+		display: none;
+}
+}
+@media only screen and (max-width: 320px){
+	#profile p {
+		margin-top: 6em;
+}
+}
